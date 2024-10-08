@@ -103,20 +103,27 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 11. Utilizando clasificador regresión logística. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 1.0. Asimismo, se obtiene y muestra matríz de confusión.
 12. Utilizando maquina soporte vectorial. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
 13. Utilizando clasificador bosque aleatorio. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 1.0. Asimismo, se obtiene y muestra matríz de confusión.
-14. Utilizando Kenearest Neghbour (KNN). Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
+14. Utilizando K-nearest Neighbour (KNN). Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
 15. Utilizando Naive Bayes Gaussian. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.96. Asimismo, se obtiene y muestra matríz de confusión.
+16. Se importan librerías y se obtienen curvas ROC y puntuación AUC
+17. Comparación de modelos:
+18. Regresión Logística:  1.0
+19. Máquina de Soporte Vectorial:  0.999659982810242
+20. Bosque Aleatorio:  1.0
+21. K-Nearest Neighbors:  0.9975679326010372
+22. Naive Bayes:  0.9973932015451893
+23. Se muestran las curvas ROC
+24. **CONCLUSIONES**
+25. El gráfico muestra que el algoritmo Random Forest y Regresión Logística obtuvierón el mejor AUC. Por lo tanto, está claro que estos modelos realizarón un mejor trabajo a la hora de clasificar a jugadores con más de 500 pts.
 
-16. Comparación de modelos:
-17.   Regresión Logística: 0.9999
-18.   Maquina soporte vectorial: 0.9996
-19.   Bosque aleatorio: 1.0
-20.   KNN: 0.9989
-21.   Naive Bayes: 0.9950
+![Captura de Pantalla 2024-10-08 a la(s) 5 34 39 p m](https://github.com/user-attachments/assets/28709f90-ab6e-4b25-9566-fc1ea2fa45d6)
+
+
 
 
 **CODIGO**
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 15 01 p m](https://github.com/user-attachments/assets/05565e8a-f2a6-404d-b44a-7b0d2945a35c)
+![Captura de Pantalla 2024-10-08 a la(s) 5 28 55 p m](https://github.com/user-attachments/assets/c135deaf-2080-46ee-992b-d1a800176968)
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 15 21 p m](https://github.com/user-attachments/assets/d674bdc2-c14e-4827-87a1-5afb9e3d7375)
 
@@ -174,7 +181,7 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 30 18 p m](https://github.com/user-attachments/assets/c32a80e6-481a-493c-8a2f-282a65f47c77)
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 30 40 p m](https://github.com/user-attachments/assets/87866eff-66db-409e-911a-5b25cefe8a3f)
+![Captura de Pantalla 2024-10-08 a la(s) 5 28 16 p m](https://github.com/user-attachments/assets/8d65771f-a8b0-423e-8e41-6a3fc7aa371a)
 
 
 
