@@ -1,6 +1,6 @@
 ## Aplicación de Ciencia y Analítica de Datos con Python
 
-## Título del Proyecto:Análisis Predictivo de un Conjunto de Datos de jugadores de Basquetball
+## Título del Proyecto:Análisis Predictivo de un Conjunto de Datos de jugadores de Basketball
 Los participantes del curso llevarán a cabo un proyecto de ciencia y analítica de datos utilizando Python. El objetivo es aplicar los conceptos teóricos y prácticos aprendidos durante el curso, desde la manipulación de datos con NumPy y Pandas, hasta la creación de visualizaciones, el desarrollo de modelos predictivos básicos, y su posterior evaluación y despliegue.
 
 ## Objetivo del Proyecto:
@@ -78,20 +78,41 @@ Visualizaciones gráficas que respalden el análisis y resumen los resultados.
 Este proyecto permite a los participantes aplicar de forma integral lo aprendido durante el curso de Ciencia y Analítica de Datos con Python, trabajando con sus propios datos o seleccionando un conjunto de datos de su interés. Esto les brinda la oportunidad de obtener experiencia práctica en la manipulación de datos, construcción de modelos predictivos, evaluación de resultados y presentación de sus hallazgos de manera clara y concisa. Entrega tardía al dia siguiente, misma hora. 
 
 # CONTEXTO
-## Análisis Predictivo de un Conjunto de Datos de jugadores de liga universitaria de Basquetball
+## Análisis Predictivo de un Conjunto de Datos de jugadores de liga universitaria de Basketball
 
 Se dispone de un conjunto de datos que describen Nombre, Universidad de origen, las condiciones físicas, posición en la duela y logros obtenidos durante el último año. Con base a lo anterior, los directivos de la liga, desean aportar información a los equipos de ligas mayores para reforzar la ofensiva y conservar los jugadores que más aportan.
 
 ## OBJETIVO
 
-Determinar los jugadores que lograron más de 500 puntos durante la temporada y pronosticar cúantos lo pueden lograr en adelante.
+Determinar los jugadores que lograron más de 500 puntos durante la temporada y pronosticar si lo pueden lograr en adelante.
 
 ## RESULTADOS
 
 Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizando COLAB se cargó dicha base de datos y tomando como referencia el EJERCICIO 7 (gracias por compartir), se ejecutó de la siguiente forma.
 
 1. Importar base de datos y librerías.
-2. 
+2. Revisar base de datos, 12 columnas y 3070 filas.
+3. Revisar el tipo de columnas, 3 object y 9 int64.
+4. Obtener datos estadísticos de la base de datos, como son, valores min y max, mediana, desviación estándar, quartíles.
+5. Eliminar columnas object.
+6. Visualización con histogramas de las 9 columnas.
+7. Obtener matríz de correlaciones de jugadores.
+8. Seleccionar y eliminar columna mayor500, asimismo, eliminar columna id.
+9. División y entrenamiento, Xtrain, Xtest, ytrain, ytest. Test size del 40%.
+10. Con randomForest, se calculan y grafican 7 variables.
+11. Utilizando clasificador regresión logística. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 1.0. Asimismo, se obtiene y muestra matríz de confusión.
+12. Utilizando maquina soporte vectorial. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
+13. Utilizando clasificador bosque aleatorio. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 1.0. Asimismo, se obtiene y muestra matríz de confusión.
+14. Utilizando Kenearest Neghbour (KNN). Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
+15. Utilizando Naive Bayes Gaussian. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.96. Asimismo, se obtiene y muestra matríz de confusión.
+
+16. Comparación de modelos:
+17.   Regresión Logística: 0.9999
+18.   Maquina soporte vectorial: 0.9996
+19.   Bosque aleatorio: 1.0
+20.   KNN: 0.9989
+21.   Naive Bayes: 0.9950
+
 
 **CODIGO**
 
