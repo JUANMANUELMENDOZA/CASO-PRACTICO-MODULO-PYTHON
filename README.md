@@ -78,10 +78,20 @@ Visualizaciones gráficas que respalden el análisis y resumen los resultados.
 Este proyecto permite a los participantes aplicar de forma integral lo aprendido durante el curso de Ciencia y Analítica de Datos con Python, trabajando con sus propios datos o seleccionando un conjunto de datos de su interés. Esto les brinda la oportunidad de obtener experiencia práctica en la manipulación de datos, construcción de modelos predictivos, evaluación de resultados y presentación de sus hallazgos de manera clara y concisa. Entrega tardía al dia siguiente, misma hora. 
 
 # CONTEXTO
+## Análisis Predictivo de un Conjunto de Datos de jugadores de liga universitaria de Basquetball
+
+Se dispone de un conjunto de datos que describen Nombre, Universidad de origen, las condiciones físicas, posición en la duela y logros obtenidos durante el último año. Con base a lo anterior, los directivos de la liga, desean aportar información a los equipos de ligas mayores para reforzar la ofensiva y conservar los jugadores que más aportan.
 
 ## OBJETIVO
 
+Determinar los jugadores que lograron más de 500 puntos durante la temporada y pronosticar cúantos lo pueden lograr en adelante.
+
 ## RESULTADOS
+
+Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizando COLAB se cargó dicha base de datos y tomando como referencia el EJERCICIO 7 (gracias por compartir), se ejecutó de la siguiente forma.
+
+1. Importar base de datos y librerías.
+2. 
 
 **CODIGO**
 
