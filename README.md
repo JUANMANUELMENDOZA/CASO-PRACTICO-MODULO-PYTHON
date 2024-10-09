@@ -84,7 +84,7 @@ Se dispone de un conjunto de datos que describen Nombre, Universidad de origen, 
 
 ## OBJETIVO
 
-Determinar los jugadores que lograron más de 500 puntos durante la temporada y pronosticar si lo pueden lograr en adelante.
+Determinar los jugadores que lograron más de 500 puntos durante la temporada y evaluar si el pronóstico si lo pueden lograr en adelante.
 
 ## RESULTADOS
 
@@ -100,27 +100,29 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 8. Seleccionar y eliminar columna mayor500, asimismo, eliminar columna id.
 9. División y entrenamiento, Xtrain, Xtest, ytrain, ytest. Test size del 40%.
 10. Con randomForest, se calculan y grafican 7 variables.
-11. Utilizando clasificador regresión logística. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 1.0. Asimismo, se obtiene y muestra matríz de confusión.
+11. Utilizando clasificador regresión logística. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
 12. Utilizando maquina soporte vectorial. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
 13. Utilizando clasificador bosque aleatorio. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 1.0. Asimismo, se obtiene y muestra matríz de confusión.
 14. Utilizando K-nearest Neighbour (KNN). Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
-15. Utilizando Naive Bayes Gaussian. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.96. Asimismo, se obtiene y muestra matríz de confusión.
+15. Utilizando Naive Bayes Gaussian. Importamos librería, modelos, ypredict y son 1228 pruebas arroja una exactitud de 0.99. Asimismo, se obtiene y muestra matríz de confusión.
 16. Se importan librerías y se obtienen curvas ROC y puntuación AUC
 17. Comparación de modelos:
-18. Regresión Logística:  1.0
-19. Máquina de Soporte Vectorial:  0.999659982810242
+18. Regresión Logística:  0.999785047249799
+19. Máquina de Soporte Vectorial:  0.999745241184947
 20. Bosque Aleatorio:  1.0
-21. K-Nearest Neighbors:  0.9975679326010372
-22. Naive Bayes:  0.9973932015451893
+21. K-Nearest Neighbors:  0.9972268441486412
+22. Naive Bayes:  0.9966483293394581
 23. Se muestran las curvas ROC
 
 24. **CONCLUSIONES**
+ 
 25. El gráfico muestra que el algoritmo Random Forest obtuvo el mejor AUC. Por lo tanto, está claro que este modelo realizo un mejor trabajo a la hora de clasificar a jugadores con más de 500 pts.
 
 ![Captura de Pantalla 2024-10-08 a la(s) 7 03 28 p m](https://github.com/user-attachments/assets/a60ea1a1-e238-4d96-a16c-39a7044b475e)
 
 
 **CODIGO**
+
 ![Captura de Pantalla 2024-10-08 a la(s) 6 42 03 p m](https://github.com/user-attachments/assets/98911c55-dc95-4eee-9853-77bf7613dc86)
 
 ![Captura de Pantalla 2024-10-08 a la(s) 6 42 46 p m](https://github.com/user-attachments/assets/de72ccee-058c-434b-b01d-8ad10f75eaa9)
