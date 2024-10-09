@@ -113,6 +113,7 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 21. K-Nearest Neighbors:  0.9975679326010372
 22. Naive Bayes:  0.9973932015451893
 23. Se muestran las curvas ROC
+
 24. **CONCLUSIONES**
 25. El gráfico muestra que el algoritmo Random Forest y Regresión Logística obtuvierón el mejor AUC. Por lo tanto, está claro que estos modelos realizarón un mejor trabajo a la hora de clasificar a jugadores con más de 500 pts.
 
@@ -127,7 +128,7 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 15 21 p m](https://github.com/user-attachments/assets/d674bdc2-c14e-4827-87a1-5afb9e3d7375)
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 16 48 p m](https://github.com/user-attachments/assets/651b3322-3382-4aeb-ad1e-90766107d1cd)
+![Captura de Pantalla 2024-10-08 a la(s) 5 56 00 p m](https://github.com/user-attachments/assets/879b8984-8fe2-47fe-ba88-1b3c9ebf2232)
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 17 47 p m](https://github.com/user-attachments/assets/1d3d22e3-2f6f-4f5f-9815-b140f8aca3b6)
 
@@ -141,7 +142,7 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 20 29 p m](https://github.com/user-attachments/assets/13d88834-f074-4a8c-9be7-e915dceaab28)
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 21 54 p m](https://github.com/user-attachments/assets/d73d0434-69e4-43a4-b659-03e6f15f8f28)
+![Captura de Pantalla 2024-10-08 a la(s) 5 57 48 p m](https://github.com/user-attachments/assets/e8944868-224f-4c5d-8b2f-1fbaacc99130)
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 22 18 p m](https://github.com/user-attachments/assets/c18e1a24-ef0b-4195-a9a0-12e4de9e93f3)
 
@@ -173,13 +174,11 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 
 ![Captura de Pantalla 2024-10-07 a la(s) 8 28 42 p m](https://github.com/user-attachments/assets/b7b028d9-01a7-43bf-9a10-8594dc612b95)
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 28 54 p m](https://github.com/user-attachments/assets/e3dddb3f-5d8d-43fd-9d22-60a6b320cda8)
-
 ![Captura de Pantalla 2024-10-07 a la(s) 8 29 19 p m](https://github.com/user-attachments/assets/531bfece-d00a-4132-8acb-0e9f750bf084)
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 29 45 p m](https://github.com/user-attachments/assets/392f420d-c098-48f4-8bfc-05a6f5e97713)
+![Captura de Pantalla 2024-10-08 a la(s) 5 53 21 p m](https://github.com/user-attachments/assets/b2bbe36c-6586-4ca1-9881-b0026ed7af7f)
 
-![Captura de Pantalla 2024-10-07 a la(s) 8 30 18 p m](https://github.com/user-attachments/assets/c32a80e6-481a-493c-8a2f-282a65f47c77)
+![Captura de Pantalla 2024-10-08 a la(s) 5 54 21 p m](https://github.com/user-attachments/assets/48b728f3-aad9-43da-b1c2-41df04b8d6f9)
 
 ![Captura de Pantalla 2024-10-08 a la(s) 5 28 16 p m](https://github.com/user-attachments/assets/8d65771f-a8b0-423e-8e41-6a3fc7aa371a)
 
