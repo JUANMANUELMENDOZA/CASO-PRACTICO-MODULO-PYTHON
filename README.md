@@ -75,10 +75,9 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 
 ![Captura de Pantalla 2024-10-08 a la(s) 6 49 43 p m](https://github.com/user-attachments/assets/7a077df9-f71d-4536-a5c7-f007182deb6d)
 
-![Captura de Pantalla 2024-10-08 a la(s) 6 50 24 p m](https://github.com/user-attachments/assets/3d08ebac-df7e-4493-966d-0fbcf9767987)
-
 ![Captura de Pantalla 2024-10-07 a la(s) 8 24 25 p m](https://github.com/user-attachments/assets/c4540585-98e8-4443-ab0a-bbfba02abdd3)
 
+![Captura de Pantalla 2024-10-07 a la(s) 8 24 54 p m](https://github.com/user-attachments/assets/731f43ef-c6f4-4151-9385-884d7d443dbf)
 
 ![Captura de Pantalla 2024-10-08 a la(s) 6 51 07 p m](https://github.com/user-attachments/assets/8c938d8c-f92f-4970-8199-b1775fce3fdc)
 
