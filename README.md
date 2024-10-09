@@ -1,4 +1,5 @@
 # CONTEXTO
+
 ## Análisis Predictivo de un Conjunto de Datos de jugadores de liga universitaria de Basketball
 
 Se dispone de un conjunto de datos que describen Nombre, Universidad de origen, las condiciones físicas, posición en la duela y logros obtenidos durante el último año. Con base a lo anterior, los directivos de la liga, desean aportar información a los equipos de ligas mayores para reforzar la ofensiva y conservar los jugadores que más aportan.
