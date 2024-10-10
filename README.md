@@ -43,6 +43,20 @@ Se preparó la base de datos xls y se convirtió a csv. Posteriormente utilizand
 ![Captura de Pantalla 2024-10-08 a la(s) 7 03 28 p m](https://github.com/user-attachments/assets/a60ea1a1-e238-4d96-a16c-39a7044b475e)
 
 
+CONCLUSIONES Y RECOMENDACIONES
+
+Como resultado de la ejecución de  5 modelos para el análisis de la base de datos de jugadores de una liga universitaria de basketball.
+
+a)	Regresión Logística:  0.999785047249799
+b)	Máquina de Soporte Vectorial:  0.999745241184947
+c)	Bosque Aleatorio:  1.0
+d)	K-Nearest Neighbors:  0.9972268441486412
+e)	Naive Bayes:  0.9966483293394581
+
+Se concluye que el modelo de bosque aleatorio es el que mejor describe este análisis. Los jugadores que logran más de 500 pts.
+
+
+
 **CODIGO**
 
 ![Captura de Pantalla 2024-10-08 a la(s) 6 42 03 p m](https://github.com/user-attachments/assets/98911c55-dc95-4eee-9853-77bf7613dc86)
